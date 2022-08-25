@@ -1,0 +1,51 @@
+@media (min-width:1024px) and (max-width:1400px) {
+    .sideright{
+        height: auto;
+        max-width: 110% !important;
+        height: auto;
+        img{
+            max-width: 120%;
+        }
+    }
+    .sideleft{
+        h1{
+            font-size: 40px !important;
+        }
+        
+    }
+    p{
+        font-size: 17px !important;
+        max-width: 100% !important;
+    }
+    .FeaturesTitle{
+        max-width:50%;
+    }
+    .Features{
+    .headbox {
+        img{
+            max-width: 110% !important;
+        }
+        .sideleft {
+          padding-left: 12% !important;
+          h2{
+            font-size: 27px !important;
+          }
+          p{
+            width: 100%!important;
+            font-size: 16px !important;
+          }
+        }
+      }}
+
+      .box{
+        max-width:30% !important;
+        .btn{
+            font-size: 15px !important;
+            padding:15px 12px;
+          }
+    }
+    .contactWithd{
+      max-width:65% !important;
+    }
+    
+}

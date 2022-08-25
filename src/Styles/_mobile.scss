@@ -1,0 +1,237 @@
+@media (max-width: 768px) {
+  html {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 90% !important;
+  }
+  @keyframes menueffect {
+    from {
+      height: 0;
+    }
+    to {
+      height: 100vh;
+    }
+  }
+  .navBar {
+    display: block !important;
+    margin: 0;
+  }
+  .backmeu {
+    background-color: $DarkBlue;
+    opacity: 0.95;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    margin: 0 !important;
+    padding: 0 9%;
+    z-index: 10;
+    animation: menueffect 1.5s;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 35px 0;
+    z-index: 0;
+  }
+  .humicon {
+    display: block !important;
+    width: 20px;
+  }
+  .menu {
+    display: grid;
+    text-align: center;
+    a {
+      color: white;
+      font-size: 18px;
+      padding: 25px 0;
+      letter-spacing: 4px;
+      border-top: 1px solid $GrayishBlue;
+      &:last-of-type {
+        border-bottom: 1px solid $GrayishBlue;
+      }
+    }
+    .loginbtn {
+      margin-top: 25px;
+      padding: 15px 0;
+      border: 2px solid white;
+      background-color: $DarkBlue;
+      font-size: 18px;
+      &:hover {
+        background-color: $DarkBlue;
+        color: $GrayishBlue;
+        border: 2px solid $GrayishBlue;
+        padding: 15px 0;
+      }
+    }
+  }
+  .media {
+    display: flex !important;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+    padding: 40px 0;
+    left: 41%;
+    a {
+      padding-right: 0;
+      &:first-child {
+        margin-right: 40px;
+      }
+    }
+  }
+  .whitelogo {
+    filter: brightness(0) invert(1);
+  }
+  .dismenu {
+    display: none !important;
+  }
+  ///header
+  .headbox {
+    flex-direction: column-reverse;
+    text-align: center;
+    .sideright {
+      height: auto;
+      width: 100% !important;
+      img {
+        max-width: 100%;
+        z-index: 0;
+      }
+      .bckgcolor {
+        right: -20%;
+        top: 25%;
+      }
+    }
+    .sideleft {
+      margin-top: 35px;
+      width: 100%;
+      button{
+        padding: 15px 10px;
+      }
+      h1 {
+        font-size: 30px !important;
+        line-height: 40px;
+      }
+    }
+  }
+  p {
+    font-size: 15px !important;
+    width: 80% !important;
+    margin: 25px auto !important;
+  }
+  .Features {
+    margin-top: 90px;
+    .FeaturesTitle {
+      max-width: 100%;
+      margin: 30px auto;
+      text-align: center;
+      h2 {
+        color: $DarkBlue;
+        font-size: 28px;
+        font-weight: 500;
+      }
+      p {
+        line-height: 28px;
+        margin: 15px auto;
+        width: 90% !important;
+      }
+    }
+    .slider {
+      border-top: 2px solid rgba(158, 158, 158, 0.2);
+      
+    margin-bottom:150px;
+      .slidcont {
+        display: inline;
+        padding: 28px 0px;
+      }
+      .clickeffect {
+        color: $DarkBlue;
+      }
+    }
+    .headbox {
+      flex-direction: column;
+      .sideleft {
+        margin-top: 90px;
+        padding-left: 0 !important;
+        p {
+          width: 90% !important;
+          font-size: 17px !important;
+        }
+        h2 {
+          color: $DarkBlue;
+          font-size: 27px;
+          font-weight: 500;
+        }
+      }
+    }
+    .sideright {
+      height: 80% !important;
+      img {
+        max-width: 90%;
+      }
+    }
+  }
+  .Title {
+    max-width: 90% !important;
+    margin: 50px auto;
+    h2{
+      font-size:24px;
+    }
+  }
+  .addExtension {
+    flex-direction: column;
+    .box {
+      max-width: 90% !important;
+      margin: 20px auto !important;
+      
+      .btn {
+        font-size: 13px !important;
+        padding: 15px 8px;
+      }
+      p {
+        margin-top: 5px !important;
+        margin-bottom: 15px !important;
+      }
+    }
+  }
+  .dropborder{
+    max-width:80%;
+    p{
+      margin: 0!important;
+      width: 100% !important;
+    }
+  }
+  .contactWithd{
+    max-width:80% !important;
+    h2{
+      font-size:28px;
+      max-width:90% !important;
+    }
+    .ContactForm{
+      max-width: 90% !important;
+      flex-direction: column;
+      .emailInput{
+        width: 100% !important;
+        margin-bottom: 30px;
+        input{
+          font-size: 15px;
+        }
+        p{
+          margin:5px 0 !important;
+          font-size: 12px !important;
+        }
+      }
+      .erorr{
+        margin-bottom: 15px;
+      }
+      .contactbtn{
+        width: 100% !important;
+      }
+    }
+    
+  }
+}
