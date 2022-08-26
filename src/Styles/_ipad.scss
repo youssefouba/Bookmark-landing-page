@@ -1,72 +1,86 @@
-@media (min-width:769px) and (max-width:1024px){
-    .container{
-        max-width: 85%;
-        margin: auto;
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 85%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  .sideright {
+    height: auto;
+    max-width: 110% !important;
+    img {
+      max-width: 120%;
     }
-    html{
-        overflow-x: hidden;
+  }
+  .sideleft {
+    max-width: 50% !important;
+    h1 {
+      font-size: 33px !important;
     }
-    .sideright{
+  }
+  p {
+    font-size: 15px !important;
+    width: 90% !important;
+  }
+  .FeaturesTitle {
+    max-width: 60%;
+  }
+  .Features {
+    .headbox {
+      .sideright {
         height: auto;
         max-width: 110% !important;
-        img{
-            max-width: 120%;
+        margin-left: -8%;
+        img {
+          max-width: 120% !important;
+          padding-left: 15% !important;
         }
-    }
-    .sideleft{
+      }
+      .sideleft {
+        padding-left: 8% !important;
         max-width: 50% !important;
-        h1{
-            font-size: 33px !important;
+        h2 {
+          font-size: 25px !important;
         }
-        
-    }
-    p{
-        font-size: 15px !important;
-        width: 90% !important;
-    }
-    .FeaturesTitle{
-        max-width:60%;
-    }
-    .Features {
-    .headbox {
-        
-        .sideright{
-            height: auto;
-            max-width: 110% !important;
-            margin-left: -8%;
-        img{
-            max-width: 120% !important;
-            padding-left:15%!important;
-        }}
-        .sideleft {
-          padding-left: 8% !important;
-          max-width: 50% !important;
-          h2{
-            font-size: 25px !important;
-          }
-          p{
-            width: 100%!important;
-            font-size: 16px !important;
-          }
+        p {
+          width: 100% !important;
+          font-size: 16px !important;
         }
-      }}
-      .Title{
-        max-width:75% !important;
-    }
-      .box{
-        max-width:30% !important;
-        .btn{
-            font-size: 13px !important;
-            padding:15px 8px;
-          }
-          p{
-            margin-bottom: 10px !important;
-          }
-    }
-    .contactWithd{
-      max-width:80% !important;
-      .ContactForm{
-        max-width: 80% !important;
       }
     }
+  }
+  .Title {
+    max-width: 75% !important;
+  }
+  .box {
+    max-width: 30% !important;
+    .btn {
+      font-size: 13px !important;
+      padding: 15px 8px;
+    }
+    p {
+      margin-bottom: 10px !important;
+    }
+  }
+  .contactWithd {
+    max-width: 80% !important;
+    .ContactForm {
+      max-width: 80% !important;
+    }
+  }
+  footer {
+    .menu {
+      padding-left: 15% !important;
+      a{
+        padding-right: 30px !important;
+      }
+    }
+    .media{
+      a{
+        padding-right: 30px !important;
+      }
+    }
+  }
 }

@@ -27,7 +27,7 @@ const Features = () => {
         
     }
   return (
-    <div className="Features">
+    <div className="Features container" id='Feature'>
       <div className="FeaturesTitle">
         <h2>Features</h2>
         <p>

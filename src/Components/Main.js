@@ -5,7 +5,7 @@ import Question from './Question'
 import Contact from './Contact'
 const main = () => {
   return (
-    <main className="abs">
+    <main>
       <Features/>
       <Download/>
       <Question />

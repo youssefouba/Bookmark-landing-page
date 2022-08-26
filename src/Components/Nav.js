@@ -6,8 +6,8 @@ import twitter from "../images/icon-twitter.svg";
 import facebook from "../images/icon-facebook.svg";
 import { useState, useEffect } from "react";
 
-const Nav = () => {
-  const [menuClick, setMenu] = useState(false);
+const Nav = ({menuClick,setMenu}) => {
+  
   const clickmenu = () => {
     setMenu(!menuClick);
   };
@@ -27,9 +27,9 @@ const Nav = () => {
       </div>
       
       <div className={menuClick ? "menu" : "menu dismenu"}>
-        <a href="#">FEATURES</a>
-        <a href="#">PRICING</a>
-        <a href="#">CONTACT</a>
+        <a href="#Feature" onClick={()=>setMenu(false)}>FEATURES</a>
+        <a href="#pricing" onClick={()=>setMenu(false)}>PRICING</a>
+        <a href="#contact" onClick={()=>setMenu(false)}>CONTACT</a>
         <button className="loginbtn">LOGIN</button>
       </div>
       {menuClick && (

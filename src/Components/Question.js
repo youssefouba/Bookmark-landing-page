@@ -23,7 +23,7 @@ const Question = () => {
     }]);
     
   return (
-    <div className="question">
+    <div className="question container">
       <div className="Title">
         <h2>Frequently Asked Questions</h2>
         <p>
@@ -32,7 +32,7 @@ const Question = () => {
         </p>
       </div>
       <div className="dropborder">
-      {allQuest.map((i)=><Quest qustion={i.qustion} answer={i.answer} id={i.id}/>)}
+      {allQuest.map((i)=><Quest qustion={i.qustion} answer={i.answer} key={i.id}/>)}
       </div>
       <div className="btnsBox">
               <button className="btn">More Info</button>

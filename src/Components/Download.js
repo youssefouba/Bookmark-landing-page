@@ -6,7 +6,7 @@ import dots from '../images/bg-dots.svg'
 
 const Download = () => {
   return (
-    <div>
+    <div className="container" id="pricing">
         <div className="Title">
         <h2>Download the extension</h2>
         <p>

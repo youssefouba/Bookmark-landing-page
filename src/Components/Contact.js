@@ -7,7 +7,7 @@ const Contact = () => {
         setval(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(text));
     }
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contactWithd">
         <span>35,000+ ALREADY JOINED</span>
         <h2>Stay up-to-date with what we’re doing</h2>

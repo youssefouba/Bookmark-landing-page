@@ -7,6 +7,7 @@ import Loading from "./Components/Loading";
 import { useState, useEffect } from "react";
 function App() {
   const [load, setload] = useState(true);
+  const [menuClick, setMenu] = useState(false);
   useEffect(() => {
     setload(true);
     setTimeout(() => {
@@ -18,12 +19,12 @@ function App() {
       {load ? (
         <Loading />
       ) : (
-        <div>
-          <Nav />
-          <Header />
+        <>
+          <Nav menuClick={menuClick} setMenu={setMenu}/>
+          <Header menuClick={menuClick}/>
          <Main />
           <Footer />
-        </div>
+        </>
       )}
     </div>
   );

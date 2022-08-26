@@ -1,13 +1,13 @@
 import React from 'react'
 import { useState } from 'react';
 import arow from '../images/icon-arrow.svg'
-const Quest = ({qustion,answer,id}) => {
+const Quest = ({qustion,answer}) => {
     const [show,setshow]=useState(false);
     const dropClick=()=>{
         setshow(!show);
     }
   return (
-    <div className="dropdown" onClick={dropClick} key={id}>
+    <div className="dropdown" onClick={dropClick}>
         <div className="dropbtn" >
         <h3>{qustion}</h3>
         <div><img src={arow} alt="drop down" className={show?"up":""} /></div>
