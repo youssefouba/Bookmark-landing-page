@@ -457,6 +457,18 @@ h2 {
   margin-left: -35px;
 }
 
+.contact .contactWithd .ContactForm .sucss {
+  background-color: #1edf1e !important;
+}
+
+.contact .contactWithd .ContactForm .sucss p {
+  padding-left: 15px;
+}
+
+.contact .contactWithd .ContactForm .sucss input {
+  border: 2px solid #1edf1e !important;
+}
+
 .contact .contactWithd .ContactForm .erorr {
   background-color: #fa5757;
 }
