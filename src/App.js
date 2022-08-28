@@ -16,16 +16,12 @@ function App() {
   }, []);
   return (
     <div className="App">
-      {load ? (
-        <Loading />
-      ) : (
-        <>
+     
           <Nav menuClick={menuClick} setMenu={setMenu}/>
           <Header menuClick={menuClick}/>
          <Main />
           <Footer />
-        </>
-      )}
+     
     </div>
   );
 }
